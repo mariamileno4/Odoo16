@@ -22,7 +22,7 @@ services:
        USER: admin
        PASSWORD: admin
     ports:
-      - "8069:8069
+      - "8069:8069"
     volumes:
       - odoo16-data:/var/lib/odoo
       - ./config_odoo:/etc/odoo
