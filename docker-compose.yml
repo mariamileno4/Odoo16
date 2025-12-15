@@ -31,7 +31,7 @@ services:
     networks:
       - odoo-net
 
-volumen:
+volumes:
   db14-data:
   odoo16-data:
 
